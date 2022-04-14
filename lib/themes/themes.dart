@@ -7,7 +7,13 @@ class Themes {
       centerTitle: true,
       elevation: 0,
       titleTextStyle: TextStyle(
-          fontSize: 20, fontWeight: FontWeight.bold, letterSpacing: 1.3));
+          fontSize: 20,
+          fontWeight:
+          FontWeight.bold,
+          letterSpacing: 8.3,
+      ),
+
+  );
 
   static const TextTheme txtTheme = TextTheme(
     bodyText2: TextStyle( fontWeight: FontWeight.normal, fontSize: 16,color: ColorPalette.textColor)

@@ -5,12 +5,12 @@ import 'package:stack_widget/themes/themes.dart';
 import 'views/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  final String _title = 'Stack Widget';
-  const MyApp({Key? key}) : super(key: key);
+  final String _title = 'Stack Widget'.toUpperCase();
+  MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
